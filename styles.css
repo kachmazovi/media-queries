@@ -1,0 +1,28 @@
+main {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.right-side {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.box {
+    width: 30%;
+    min-width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+

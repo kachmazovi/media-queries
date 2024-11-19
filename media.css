@@ -1,0 +1,38 @@
+@media (max-width: 1120px) {
+    main {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .left-side {
+        width: 50%;
+    text-align: center;
+    }
+
+    .right-side {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .description {
+        display: none;
+    }
+    .left-side {
+        width: 80%;
+    }
+    .right-side {
+        width: 90%;
+        justify-content: center;
+    }
+    .box {
+        width: 80%;
+    }
+}
